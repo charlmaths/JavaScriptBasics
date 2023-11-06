@@ -48,8 +48,8 @@ i.e. we can do somePromises.then().catch() then inside methods we can also plug 
 // Example 3
 
 let somePromise3 = new Promise((resolve, reject) => {
-  resolve("Promise is Success");
-  reject("Promise is Fail");
+  resolve();
+  reject();
 });
 
 somePromise3
