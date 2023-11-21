@@ -1,4 +1,4 @@
-// Another promise example
+// Another Promise example
 
 const one = () => {
   return "one";
@@ -28,3 +28,11 @@ const callFunction = () => {
 };
 
 callFunction();
+
+const promiseFunction = () => {
+  return new Promise((resolve, reject) => {});
+};
+
+const asyncFunction = () => {
+  promiseFunction();
+};
